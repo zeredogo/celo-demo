@@ -13,4 +13,17 @@ contract Market {
         uint price;
         uint sold;
     }
+
+    mapping (uint => Product) internal products;
+
+    function writeProduct(
+        uint _index,
+        string memory _name,
+        string memory _image,
+        string memory _description,
+        string memory _location,
+        uint _price
+    ) public {
+        
+    }
 }
