@@ -35,4 +35,19 @@ contract Market {
             _sold
         );
     }
+
+    function readProduct(uint _index) public view returns (
+        address payable,
+        string memory,
+        string memory,
+        string memory,
+        string memory,
+        uint,
+        uint
+    ) {
+        return (
+            products[_index].owner,
+            products[_index].name,
+        )
+    }
 }
