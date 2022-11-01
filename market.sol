@@ -4,6 +4,8 @@ pragma solidity >=0.7.0 <0.9.0;
 
 contract Market {
     
+    uint internal productsLength = 0;
+    
     struct Product {
         address payable owner;
         string name;
@@ -51,6 +53,8 @@ contract Market {
             products[_index].image,
             products[_index].description,
             products[_index].location,
-        )
+            products[_index].price,
+            products[_index].sold
+        );
     }
 }
