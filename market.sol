@@ -48,6 +48,9 @@ contract Market {
         return (
             products[_index].owner,
             products[_index].name,
+            products[_index].image,
+            products[_index].description,
+            products[_index].location,
         )
     }
 }
