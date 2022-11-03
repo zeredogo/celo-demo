@@ -11,4 +11,11 @@ interface IERC20Token {
     function allowance(address, address) external view returns (uint256);
 
     event Transfer(address indexed from, address indexed to, uint256 value);
+    event Approval(address indexed owner, address indexed spender, uint256 value);
+}
+
+
+contract Transaction {
+    uint internal productsLength = 0;
+    address internal cUsdTokenAddress = 0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1;
 }
