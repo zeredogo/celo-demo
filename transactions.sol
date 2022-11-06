@@ -18,4 +18,8 @@ interface IERC20Token {
 contract Transaction {
     uint internal productsLength = 0;
     address internal cUsdTokenAddress = 0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1;
+
+
+
+ function allowance()
 }
