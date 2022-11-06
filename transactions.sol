@@ -21,5 +21,5 @@ contract Transaction {
 
 
 
- function allowance(_memory, uint256)
+ function allowance(_memory, _uint256, _string, )
 }
