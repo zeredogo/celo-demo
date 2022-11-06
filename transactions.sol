@@ -22,8 +22,8 @@ contract Transaction {
 
 
  function allowance() public view returns(string memory, uint256, address ) {
-    return uint256 = 100% 
-         string = Krypto Zone 
-         address =
+    return uint256 = 100; 
+         string = Kryptozone; 
+         address = 0x874069Fa1jfv85474rgecedbcvdcd;
  }
 }
