@@ -22,6 +22,6 @@ contract Transaction {
 
 
  function allowance() public view returns(string memory, uint256, address ) {
-    
+    return uint256
  }
 }
