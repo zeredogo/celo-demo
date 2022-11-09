@@ -14,4 +14,8 @@ contract Demo {
         uint price;
         uint sold;
     }
+
+        mapping (uint => Product) internal products;
+
+  
 }
