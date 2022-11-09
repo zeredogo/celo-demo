@@ -30,7 +30,10 @@ contract Demo {
             payable(msg.sender),
             _name,
             _image,
-            
+            _description,
+            _location,
+            _price,
+            _sold
         );
     }
 }
