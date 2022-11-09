@@ -24,5 +24,13 @@ contract Demo {
         string memory _description,
         string memory _location,
         uint _price
-    )   
+    )  public {
+        uint _sold = 0;
+        product[_index] = Product(
+            payable(msg.sender),
+            _name,
+            _image,
+            
+        );
+    }
 }
