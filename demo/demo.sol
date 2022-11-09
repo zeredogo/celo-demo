@@ -8,6 +8,10 @@ contract Demo {
      struct Product {
         address payable owner;
         string name;
-        
+        string image;
+        string description;
+        string location;
+        uint price;
+        uint sold;
     }
 }
