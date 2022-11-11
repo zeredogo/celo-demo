@@ -43,6 +43,7 @@ contract Demo {
         string memory,
         string memory,
         string memory,
-       
-    )
+       uint,
+         
+    ) 
 }
