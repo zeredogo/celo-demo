@@ -36,4 +36,9 @@ contract Demo {
             _sold
         );
     }
+
+     function readProduct(uint _index) public view returns (
+        address payable,
+        
+    )
 }
