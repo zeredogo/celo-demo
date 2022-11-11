@@ -40,6 +40,7 @@ contract Demo {
      function readProduct(uint _index) public view returns (
         address payable,
         string memory,
-     
+           string memory,
+       
     )
 }
