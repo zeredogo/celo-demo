@@ -53,7 +53,7 @@ contract Demo {
             products[_index].description,
             products[_index].location,
             products[_index].price,
-            
+            products[_index].sold
         );
     }
 }
