@@ -47,7 +47,8 @@ contract Demo {
         uint
     ) {
         return (
-           
+            products[_index].owner,
+            
         );
     }
 }
