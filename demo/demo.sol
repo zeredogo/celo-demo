@@ -49,6 +49,8 @@ contract Demo {
         return (
             products[_index].owner,
             products[_index].name,
+            products[_index].image,
             
+        );
     }
 }
