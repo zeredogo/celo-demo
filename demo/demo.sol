@@ -37,6 +37,8 @@ contract Demo {
             _sold
         );
     }
+     function writeProduct
+    }
 
      function readProduct(uint _index) public view returns (
         address payable,
