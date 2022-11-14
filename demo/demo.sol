@@ -37,7 +37,8 @@ contract Demo {
             _sold
         );
     }
-     function writeProduct(string memory _product) 
+     function writeProduct(string memory _product)public {
+        
     }
 
      function readProduct(uint _index) public view returns (
