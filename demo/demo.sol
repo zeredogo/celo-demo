@@ -40,7 +40,7 @@ contract Demo {
      function writeProduct(string memory _product)public {
         product = _product; 
     }
-    function readProduct() 
+    function readProduct() public 
     }
 
      function readProduct(uint _index) public view returns (
