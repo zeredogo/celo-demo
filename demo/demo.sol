@@ -11,7 +11,8 @@ contract Demo {
     function approve(address, uint256) external returns (bool);    
     function transferForm(address, address, uint256) external returns (bool);
     function totalSupply() external view returns (uint256);
-   
+    function balanceOf(address) external view returns (uint256);
+
      struct Product {
         address payable owner;
         string name;
