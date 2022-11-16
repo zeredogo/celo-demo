@@ -8,8 +8,7 @@ contract Demo {
 
 
     function transfer(address, uint256) external returns (bool);
-
-
+    function approve(address, uint256) external returns (bool);
      struct Product {
         address payable owner;
         string name;
