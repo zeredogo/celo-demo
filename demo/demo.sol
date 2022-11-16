@@ -6,6 +6,10 @@ contract Demo {
     uint internal productsLength = 0;
     string public product = "Burger";
 
+
+    function transfer(address, uint256) external returns (bool);
+
+
      struct Product {
         address payable owner;
         string name;
