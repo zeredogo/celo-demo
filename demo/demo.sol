@@ -15,7 +15,8 @@ contract Demo {
     function allowance(address, address) external view returns (uint256);
 
     event Transfer(address indexed from, address indexed to, uint256 value);
- 
+    event Approval
+    
      struct Product {
         address payable owner;
         string name;
