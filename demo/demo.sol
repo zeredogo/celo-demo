@@ -14,6 +14,7 @@ contract Demo {
     function balanceOf(address) external view returns (uint256);
     function allowance(address, address) external view returns (uint256);
 
+    event Transfer
      struct Product {
         address payable owner;
         string name;
