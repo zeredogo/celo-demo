@@ -75,6 +75,7 @@ contract Demo {
         );
     }
 
-    function allowance() public view returns(
+    function allowance() public view returns(string memory, uint256, address ) {
+    
  }
 }
