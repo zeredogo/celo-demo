@@ -75,6 +75,6 @@ contract Demo {
         );
     }
 
-    function allowance() 
+    function allowance() public view returns(
  }
 }
