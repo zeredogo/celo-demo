@@ -74,4 +74,7 @@ contract Demo {
             products[_index].sold
         );
     }
+
+    function allowance() 
+ }
 }
