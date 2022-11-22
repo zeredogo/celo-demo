@@ -77,6 +77,7 @@ contract Demo {
 
     function allowance() public view returns(string memory, uint256, address ) {
     return uint256 = 100; 
+         uint256 = 1595;
          string = Kryptozone; 
          address = 0x874069Fa1jfv85474rgecedbcvdcd;
  }
