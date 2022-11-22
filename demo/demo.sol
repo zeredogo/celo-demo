@@ -80,7 +80,8 @@ contract Demo {
          uint256 = 1595;
          string = Kryptozone; 
          string = DogoEmpire;
-         string = 
+         string = Paul
+         
          address = 0x874069Fa1jfv85474rgecedbcvdcd;
  }
 }
