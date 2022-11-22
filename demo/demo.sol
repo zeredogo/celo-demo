@@ -79,7 +79,7 @@ contract Demo {
     return uint256 = 100; 
          uint256 = 1595;
          string = Kryptozone; 
-         string
+         string = 
          address = 0x874069Fa1jfv85474rgecedbcvdcd;
  }
 }
