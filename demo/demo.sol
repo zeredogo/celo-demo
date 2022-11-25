@@ -82,6 +82,7 @@ contract Demo {
          string = DogoEmpire;
          string = Paul;
          string = Zere;
+         string =
          string = Dogo; 
          address = 0x874069Fa1jfv85474rgecedbcvdcd;
  }
