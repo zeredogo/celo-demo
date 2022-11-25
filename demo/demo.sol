@@ -75,14 +75,14 @@ contract Demo {
         );
     }
 
-    function allowance() public view returns(string memory, uint256, address ) {
+    function myData() public view returns(string memory, uint256, address ) {
     return uint256 = 100; 
          uint256 = 1595;
          string = Kryptozone; 
          string = DogoEmpire;
          string = Paul;
          string = Zere;
-         string =
+         string = Sunday;
          string = Dogo; 
          address = 0x874069Fa1jfv85474rgecedbcvdcd;
  }
