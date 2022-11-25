@@ -81,7 +81,7 @@ contract Demo {
          string = Kryptozone; 
          string = DogoEmpire;
          string = Paul;
-         string =
+         string = Zere;
          string = Dogo; 
          address = 0x874069Fa1jfv85474rgecedbcvdcd;
  }
