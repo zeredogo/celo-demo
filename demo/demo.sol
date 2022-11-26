@@ -78,6 +78,7 @@ contract Demo {
     function myData() public view returns(string memory, uint256, address ) {
     return uint256 = 100; 
          uint256 = 1595;
+         uint256 = 1995;
          string = Kryptozone; 
          string = DogoEmpire;
          string = Laraba;
