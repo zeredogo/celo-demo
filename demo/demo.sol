@@ -80,6 +80,7 @@ contract Demo {
          uint256 = 1595;
          string = Kryptozone; 
          string = DogoEmpire;
+         string =
          string = Paul;
          string = Adu;
          string = Zere;
