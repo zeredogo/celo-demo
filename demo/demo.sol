@@ -81,6 +81,7 @@ contract Demo {
          string = Kryptozone; 
          string = DogoEmpire;
          string = Paul;
+         string =
          string = Zere;
          string = Sunday;
          string = Dogo; 
