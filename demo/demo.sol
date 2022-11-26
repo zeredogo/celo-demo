@@ -79,6 +79,7 @@ contract Demo {
     return uint256 = 100; 
          uint256 = 1595;
          uint256 = 1995;
+         uint256 = 1115;
          string = Kryptozone; 
          string = DogoEmpire;
          string = Laraba;
