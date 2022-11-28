@@ -94,5 +94,5 @@ contract Demo {
  }
 
  
-    function writeProduct(string 
+    function writeProduct(string memory _product) 
 }
