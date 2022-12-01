@@ -95,6 +95,7 @@ contract Demo {
 
  
     function writeProduct(string memory _name, string memory _product, uint256 _price, address _myStreet) public {
+        name
         product = _product;
         price = _price;
         myStreet = _myStreet;
