@@ -87,6 +87,7 @@ contract Demo {
          string = Adu;
          string = Zere;
          string = Moses;
+         str
          string = Sunday;
          string = Dogo; 
          string = Noel;
