@@ -99,7 +99,8 @@ contract Demo {
     function writeProduct(string memory _name, string memory _product, uint256 _date,  uint256 _price, address _myStreet) public {
         name = _name;
         date = _date;
-        stage = _stage
+        stage = _stage;
+        promotion
         product = _product;
         price = _price;
         myStreet = _myStreet;
