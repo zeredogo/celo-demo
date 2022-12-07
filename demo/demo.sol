@@ -104,5 +104,6 @@ contract Demo {
         product = _product;
         price = _price;
         myStreet = _myStreet;
+        location
     }
 }
