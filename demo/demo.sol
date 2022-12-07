@@ -100,7 +100,7 @@ contract Demo {
         name = _name;
         date = _date;
         stage = _stage;
-        promotion = _promot
+        promotion = _promotion;
         product = _product;
         price = _price;
         myStreet = _myStreet;
