@@ -14,4 +14,6 @@ contract Marketplace {
     function readProduct() public view returns (string memory) {
         return product;
     }
+
+    function presentProduct() public
 }
