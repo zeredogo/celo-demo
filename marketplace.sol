@@ -15,7 +15,7 @@ contract Marketplace {
         return product;
     }
 
-    function presentProduct(string _de uint256 _totalNumber) public view returns (string memory) {
+    function presentProduct(string _detai uint256 _totalNumber) public view returns (string memory) {
         return _totalNumber;
     }
 }
