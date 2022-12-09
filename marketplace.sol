@@ -16,6 +16,6 @@ contract Marketplace {
     }
 
     function presentProduct(uint256 _totalNumber) public view returns (string memory) {
-        return _totalNumb
+        return _totalNumber
     }
 }
