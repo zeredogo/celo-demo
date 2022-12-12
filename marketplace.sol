@@ -11,7 +11,7 @@ contract Marketplace {
         product = _product;
     }
 
-    function readProduct(string memory ) public view returns (string memory) {
+    function readProduct(string memory profit ) public view returns (string memory) {
         return product;
     }
 
