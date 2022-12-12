@@ -12,7 +12,8 @@ contract Marketplace {
     }
 
     function readProduct(string memory profit ) public view returns (string memory) {
-        return product;
+        return product,
+        return
     }
 
     function presentProduct(string _details,  string _gross, uint256 _totalNumber) public view returns (string memory) {
