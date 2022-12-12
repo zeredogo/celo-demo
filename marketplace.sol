@@ -11,11 +11,11 @@ contract Marketplace {
         product = _product;
     }
 
-    function readProduct() public view returns (string memory) {
+    function readProduct(string) public view returns (string memory) {
         return product;
     }
 
-    function presentProduct(string _details, string _gross, uint256 _totalNumber) public view returns (string memory) {
+    function presentProduct(string _details,  string _gross, uint256 _totalNumber) public view returns (string memory) {
         return _totalNumber,
         return _gross,
         return _details;
