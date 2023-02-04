@@ -56,7 +56,7 @@ contract Market {
             products[_index].location,
             products[_index].price,
             products[_index].sold
-            products[_index].gro
+            products[_index].gros
         );
     }
 }
