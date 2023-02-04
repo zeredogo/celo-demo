@@ -45,6 +45,7 @@ contract Market {
         string memory,
         string memory,
         uint,
+        uint,
         uint
     ) {
         return (
@@ -55,6 +56,7 @@ contract Market {
             products[_index].location,
             products[_index].price,
             products[_index].sold
+            
         );
     }
 }
