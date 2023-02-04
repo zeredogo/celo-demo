@@ -24,8 +24,8 @@ contract Market {
         string memory _image,
         string memory _description,
         string memory _location,
-        uint _price
-        uint 
+        uint _price,
+        uint _g
     ) public {
         uint _sold = 0;
         product[_index] = Product(
