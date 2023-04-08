@@ -7,7 +7,7 @@ contract Market {
     uint internal productsLength = 0;
     
     struct Product {
-        address payable owner;
+        address owner;
         string name;
         string image;
         string description;
@@ -38,7 +38,7 @@ contract Market {
             _price,
             _sold,
             _gross,
-            _
+            _bet
         );
     }
 
