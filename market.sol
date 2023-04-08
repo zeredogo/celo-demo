@@ -27,7 +27,7 @@ contract Market {
         string memory _location,
         uint _price,
         uint _gross,
-        int
+        int _bet
     ) public {
         uint _sold = 0;
         product[_index] = Product(
