@@ -4,7 +4,8 @@ pragma solidity >=0.7.0 <0.9.0;
 
 contract Market {
 
-    address payable
+    int minute; 
+    address payable owner;
     uint internal productsLength = 0;
     
     struct Product {
