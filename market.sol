@@ -3,7 +3,8 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 contract Market {
-    
+
+    address
     uint internal productsLength = 0;
     
     struct Product {
