@@ -30,7 +30,7 @@ contract Market {
         int _bet
     ) public {
         uint _sold = 0;
-        int _bet 
+        int _bet = -
         product[_index] = Product(
             payable(msg.sender),
             _name,
