@@ -32,7 +32,7 @@ contract Market {
         uint _sold = 0;
         int _bet = -15;
         product[_index] = Product(
-            payable(msg.sender),
+            (msg.sender),
             _name,
             _image,
             _description,
@@ -45,7 +45,7 @@ contract Market {
     }
 
     function readProduct(uint _index) public view returns (
-        address payable,
+        address,
         string memory,
         string memory,
         string memory,
