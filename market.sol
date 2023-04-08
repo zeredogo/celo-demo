@@ -37,7 +37,8 @@ contract Market {
             _location,
             _price,
             _sold,
-            _gross
+            _gross,
+            _
         );
     }
 
