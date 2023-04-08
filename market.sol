@@ -7,7 +7,7 @@ contract Market {
     uint internal productsLength = 0;
     
     struct Product {
-        address owner;
+        address payable owner;
         string name;
         string image;
         string description;
@@ -45,7 +45,7 @@ contract Market {
     }
 
     function readProduct(uint _index) public view returns (
-        address,
+        address payable,
         string memory,
         string memory,
         string memory,
