@@ -14,7 +14,7 @@ contract Market {
         string location;
         uint price;
         uint sold;
-        int 
+        int bet;
     }
 
     mapping (uint => Product) internal products;
