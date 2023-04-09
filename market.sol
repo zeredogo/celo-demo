@@ -14,7 +14,7 @@ contract Market {
         string image;
         string description;
         string location;
-        string sold;
+        string sell;
         uint price;
         uint sale;
         int bet;
