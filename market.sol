@@ -43,6 +43,8 @@ contract Market {
             _location,
             _price,
             _sold,
+            _sell,
+            _
             _gross,
             _bet
         );
