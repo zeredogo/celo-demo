@@ -32,7 +32,7 @@ contract Market {
         uint _price,
         uint _gross,
         int _bet,
-        boo
+        bool 
     ) public {
         uint _sold = 0;
         int _bet = -15;
