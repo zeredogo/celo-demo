@@ -36,6 +36,7 @@ contract Market {
     ) public {
         uint _sold = 0;
         int _bet = -15;
+        bool
         product[_index] = Product(
             (msg.sender),
             _name,
