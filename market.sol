@@ -31,7 +31,8 @@ contract Market {
         string memory _location,
         uint _price,
         uint _gross,
-        int _bet
+        int _bet,
+        b
     ) public {
         uint _sold = 0;
         int _bet = -15;
