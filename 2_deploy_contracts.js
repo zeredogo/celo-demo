@@ -1,3 +1,3 @@
 var HelloCello = artifacts.require('HelloCelo');
 
-module.exports =
+module.exports = function
