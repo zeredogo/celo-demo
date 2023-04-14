@@ -1,1 +1,1 @@
-var HelloCello = artifacts.require
+var HelloCello = artifacts.require('HelloCelo');
