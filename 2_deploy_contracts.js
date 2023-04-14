@@ -1,3 +1,5 @@
 var HelloCello = artifacts.require('HelloCelo');
 
-module.exports = function(deployer) {}
+module.exports = function(deployer) {
+    deployer.deploy()
+}
