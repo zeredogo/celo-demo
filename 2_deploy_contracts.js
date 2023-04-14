@@ -1,1 +1,1 @@
-var HelloCello =
+var HelloCello = artifacts.
