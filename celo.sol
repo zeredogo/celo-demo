@@ -2,7 +2,7 @@
 pragma solidity ^0.8.3;
 
 contract HelloWorld {
-    string public great = "Hello Celo";
+    string public tokenURI;
 
-    constructor(string)
+    constructor(string memory _tokenURI )
 }
