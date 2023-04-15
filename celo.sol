@@ -7,4 +7,8 @@ contract UberEatDiscountNFT is ERC1155, ownable {
     constructor(string memory _tokenURI ) ERC1155("") {
         tokenURI = _tokenURI;
     }
+
+    function mint(address account, uint256 amount) public payable {
+        require(msg.value == 0.001 ether, "You need to pay 0.001 ether");
+    }
 }
