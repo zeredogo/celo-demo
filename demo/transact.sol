@@ -11,7 +11,8 @@ contract MyNFT is ERC721, Ownable {
 
     contractInstance.methods.mintNFT().send({
   from: '0x1234567890123456789012345678901234567890',
-  
+  value: web3.utils.toWei('0.1', 'ether')
+})
 
 
     constructor(string memory _name, string memory _symbol, string memory baseTokenURI) ERC721(_name, _symbol) {
