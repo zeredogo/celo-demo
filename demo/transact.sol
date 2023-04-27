@@ -21,4 +21,7 @@ contract MyNFT is ERC721, Ownable {
         _safeMint(msg.sender, tokenId);
         nftCount++;
     }
+    function setBaseTokenURI(string memory baseURI) external onlyOwner {
+        _baseTokenURI = baseURI;
+    }
 
