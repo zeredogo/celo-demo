@@ -10,6 +10,7 @@ contract MyNFT is ERC721, Ownable {
     string private _baseTokenURI;
 
     contractInstance.methods.mintNFT().send({
+  from: '0x1234567890123456789012345678901234567890',
   
 
 
