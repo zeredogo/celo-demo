@@ -24,4 +24,12 @@ contract MyNFT is ERC721, Ownable {
     function setBaseTokenURI(string memory baseURI) external onlyOwner {
         _baseTokenURI = baseURI;
     }
+    function _baseURI() internal view virtual override returns (string memory) {
+        return _baseTokenURI;
+    }
+    
+    function withdraw() external onlyOwner {
+        payable(owner()).transfer(address(this).balance);
+    }
+}
 
