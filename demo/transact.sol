@@ -9,6 +9,10 @@ contract MyNFT is ERC721, Ownable {
     uint public price = 0.1 ether;
     string private _baseTokenURI;
 
+    contractInstance.methods.mintNFT().send({
+  
+
+
     constructor(string memory _name, string memory _symbol, string memory baseTokenURI) ERC721(_name, _symbol) {
         _baseTokenURI = baseTokenURI;
     }
