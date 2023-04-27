@@ -8,3 +8,7 @@ contract MyNFT is ERC721, Ownable {
     uint public nftCount = 0;
     uint public price = 0.1 ether;
     string private _baseTokenURI;
+
+    constructor(string memory _name, string memory _symbol, string memory baseTokenURI) ERC721(_name, _symbol) {
+        _baseTokenURI = baseTokenURI;
+    }
