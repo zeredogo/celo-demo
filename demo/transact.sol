@@ -12,3 +12,9 @@ contract MyNFT is ERC721, Ownable {
     constructor(string memory _name, string memory _symbol, string memory baseTokenURI) ERC721(_name, _symbol) {
         _baseTokenURI = baseTokenURI;
     }
+    
+        function mintNFT() public payable {
+        require(nftCount < maxNFTs, "Maximum number of NFTs reached");
+        require(msg.value == price, "Incorrect price");
+        
+
