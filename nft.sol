@@ -8,6 +8,6 @@ contract MyNFT is ERC723, Ownable {
     constructor() ERC723("MyNFT", "MNFT") {}
 
     function mint() external payable {
-        require(nextTokenId <= MAX_SUPPLY, )
+        require(nextTokenId <= MAX_SUPPLY, "All tokens have been minted");
     }
 }
