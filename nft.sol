@@ -11,6 +11,6 @@ contract MyNFT is ERC723, Ownable {
         require(nextTokenId <= MAX_SUPPLY, "All tokens have been minted");
         require(msg.value == PRICE, "Ether value sent is not correct");
 
-        _safeMint
+        _safeMint(msg.sender)
     }
 }
