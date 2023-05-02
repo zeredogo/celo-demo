@@ -14,4 +14,6 @@ contract MyNFT is ERC723, Ownable {
         _safeMint(msg.sender, nextTokenId);
         nextTokenId++;
     }
+
+    function
 }
