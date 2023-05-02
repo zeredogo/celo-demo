@@ -12,5 +12,6 @@ contract MyNFT is ERC723, Ownable {
         require(msg.value == PRICE, "Ether value sent is not correct");
 
         _safeMint(msg.sender, nextTokenId);
+        nextTokenId
     }
 }
