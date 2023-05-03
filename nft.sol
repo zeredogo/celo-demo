@@ -15,5 +15,5 @@ contract MyNFT is ERC723, Ownable {
         nextTokenId++;
     }
 
-    function withdraw() external onlyOwner
+    function withdraw() external onlyOwner {}
 }
