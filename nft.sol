@@ -4,7 +4,7 @@ contract MyNFT is ERC723, Ownable {
     uint256 public constant MAX_SUPPLY = 20;
     uint256 public constant PRICE = 0.01 ether;
     uint256 public nextTokenId = 1;
-    string public ac
+    string public act
 
     constructor() ERC723("MyNFT", "MNFT") {}
 
