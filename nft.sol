@@ -19,7 +19,7 @@ contract MyNFT is ERC723, Ownable {
     function withdraw() external onlyOwner {
         payable(owner()).transfer(address(this).balance);
     }
-    function getAction(stri) public view pure {
+    function getAction(strin) public view pure {
         returns Actions;
     }
 }
