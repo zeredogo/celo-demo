@@ -5,7 +5,7 @@ contract MyNFT is ERC723, Ownable {
     uint256 public constant PRICE = 0.01 ether;
     uint256 public nextTokenId = 1;
     string public Actions;
-    string pub
+    string publ
 
     constructor() ERC723("MyNFT", "MNFT") {}
 
