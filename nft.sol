@@ -5,7 +5,7 @@ contract MyNFT is ERC723, Ownable {
     uint256 public constant PRICE = 0.01 ether;
     uint256 public nextTokenId = 1;
     string public Actions;
-    string public Succes
+    string public Success
     constructor() ERC723("MyNFT", "MNFT") {}
 
     function mint() external payable {
