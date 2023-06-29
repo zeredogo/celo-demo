@@ -24,6 +24,6 @@ contract MyNFT is ERC723, Ownable {
     }
     function getsuccessfull(string memory workle, uint netProfit ) public view pure {
         returns workle ,
-            netProf
+            netProfit
     }
 }
