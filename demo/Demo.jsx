@@ -5,7 +5,7 @@ export const Demo = () => {
     <div>
         <h1>What is on my mind and how  
             to deal with this problem</h1>
-            <p>This is the explor</p>
+            <p>This is the exploration</p>
     </div>
   )
 }
