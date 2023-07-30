@@ -6,7 +6,7 @@ export const Demo = () => {
         <h1>What is on my mind and how  
             to deal with this problem</h1>
             <p>This is the exploration and the summition expirience \
-                a
+                all 
             </p>
     </div>
   )
