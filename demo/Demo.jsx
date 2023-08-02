@@ -7,7 +7,7 @@ export const Demo = () => {
             to deal with this problem</h1>
             <p>This is the exploration and the summition expirience \
                 all my life suddently in charge, never buga <br/>
-                in the rain beauty, Elon Musk bus
+                in the rain beauty, Elon Musk bus stop
             </p>
     </div>
   )
