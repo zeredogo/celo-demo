@@ -12,7 +12,7 @@ export const Demo = () => {
                 Dangote anybody vannila perfect picture.
             </p>
             <p>i am just doing rubbish abi because i don't responsibility 
-                or 
+                or i don't want to take care
             </p>
     </div>
   )
