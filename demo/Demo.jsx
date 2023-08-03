@@ -8,7 +8,7 @@ export const Demo = () => {
             <p>This is the exploration and the summition expirience \
                 all my life suddently in charge, never buga <br/>
                 in the rain beauty, Elon Musk bus stop aquafina money
-                over
+                over love
             </p>
     </div>
   )
