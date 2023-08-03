@@ -11,8 +11,9 @@ export const Demo = () => {
                 over love big 7, kante everyday away DND NSV ,Tree palm's
                 Dangote anybody vannila perfect picture.
             </p>
-            <p>i am just doing rubbish abi because i don't responsibility 
-                or i don't want to take care
+            <p>i am just doing rubbish abi because i don't have responsibility 
+                or i don't want to take care of my responsibility please baba 
+                help me to put more effort to everything i
             </p>
     </div>
   )
