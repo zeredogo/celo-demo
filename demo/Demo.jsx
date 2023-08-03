@@ -9,7 +9,7 @@ export const Demo = () => {
                 all my life suddently in charge, never buga <br/>
                 in the rain beauty, Elon Musk bus stop aquafina money
                 over love big 7, kante everyday away DND NSV ,Tree palm's
-                Dangote anybody vannila
+                Dangote anybody vannila perfect
             </p>
     </div>
   )
