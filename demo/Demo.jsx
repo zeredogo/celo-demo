@@ -11,7 +11,7 @@ export const Demo = () => {
                 over love big 7, kante everyday away DND NSV ,Tree palm's
                 Dangote anybody vannila perfect picture.
             </p>
-            <p>i am </p>
+            <p>i am just doing</p>
     </div>
   )
 }
