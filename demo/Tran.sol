@@ -3,5 +3,5 @@
 pragma solidity ^0.8.0;
 
 contract Tran {
-    string public name = ''
+    string public name = '';
 }
