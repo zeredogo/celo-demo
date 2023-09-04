@@ -4,5 +4,5 @@ pragma solidity ^0.8.0;
 
 contract Tran {
     string public name = '';
-    uint256 public A
+    uint256 public Ag
 }
