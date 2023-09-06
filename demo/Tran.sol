@@ -3,6 +3,6 @@
 pragma solidity ^0.8.0;
 
 contract Tran {
-    string public name = 'Zonex K';
+    string public name = 'Zonex Ky';
     uint256 public Age = 28790;
 }
