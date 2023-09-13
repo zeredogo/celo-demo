@@ -3,6 +3,6 @@
 pragma solidity ^0.8.0;
 
 contract Tran {
-    string public name = 'Zonex, Kypto-zone, dogoempire = Paul D';
+    string public name = 'Zonex, Kypto-zone, dogoempire = Paul Do';
     uint256 public Age = 28790;
 }
