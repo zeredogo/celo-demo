@@ -7,5 +7,7 @@ contract Tran {
     uint256 public Age = 28790;
     string public Gracefullness = "The flood when and till flesh";
 
-    function getLogo(string memory _logo) public view returns {}
+    function getLogo(string memory _logo) public view returns {
+        r
+    }
 }
