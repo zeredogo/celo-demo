@@ -8,6 +8,6 @@ contract Tran {
     string public Gracefullness = "The flood when and till flesh";
 
     function getLogo(string memory _logo) public view returns {
-        return _log
+        return _logo
     }
 }
