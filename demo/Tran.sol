@@ -11,4 +11,6 @@ contract Tran {
     function getLogo(string memory _logo) public view returns {
         return _logo;
     }
+
+    f
 }
