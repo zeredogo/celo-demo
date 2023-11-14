@@ -12,5 +12,5 @@ contract Tran {
         return _logo;
     }
 
-    function w
+    function wr
 }
