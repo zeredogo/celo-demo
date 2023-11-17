@@ -12,5 +12,5 @@ contract Tran {
         return _logo;
     }
 
-    function writeGrace
+    function writeGracef
 }
