@@ -12,5 +12,5 @@ contract Tran {
         return _logo;
     }
 
-    function writeGracefullness(string memory _gracefull)
+    function writeGracefullness(string memory _gracefulln)
 }
