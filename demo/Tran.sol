@@ -12,5 +12,5 @@ contract Tran {
         return _logo;
     }
 
-    function writeGracefullness(string memory _gracefullness) public view retu
+    function writeGracefullness(string memory _gracefullness) public view retur
 }
