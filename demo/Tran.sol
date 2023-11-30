@@ -13,6 +13,6 @@ contract Tran {
     }
 
     function writeGracefullness(string memory _gracefullness) public view returns {
-        return _
+        return _g
     }
 }
