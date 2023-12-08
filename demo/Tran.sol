@@ -16,5 +16,5 @@ contract Tran {
         return _gracefullness;
     }
 
-    function getPrice(string _p)
+    function getPrice(string _pr)
 }
