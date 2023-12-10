@@ -16,5 +16,5 @@ contract Tran {
         return _gracefullness;
     }
 
-    function getPrice(string mem _price)
+    function getPrice(string memo _price)
 }
