@@ -16,5 +16,5 @@ contract Tran {
         return _gracefullness;
     }
 
-    function getPrice(string memory _price) public vi
+    function getPrice(string memory _price) public vie
 }
