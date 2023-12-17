@@ -19,4 +19,6 @@ contract Tran {
     function getPrice(string memory _price) public view returns {
         return _price;
     }
+
+    f
 }
