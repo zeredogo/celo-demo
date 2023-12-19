@@ -20,5 +20,5 @@ contract Tran {
         return _price;
     }
 
-    functio
+    function
 }
