@@ -20,5 +20,5 @@ contract Tran {
         return _price;
     }
 
-    function getAge(s)
+    function getAge(st)
 }
