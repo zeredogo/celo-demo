@@ -16,7 +16,7 @@ contract Tran {
         return _gracefullness;
     }
 
-    function getPrice(uint25_price) public view returns {
+    function getPrice(uint256_price) public view returns {
         return _price;
     }
 
