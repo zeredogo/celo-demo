@@ -21,6 +21,6 @@ contract Tran {
     }
 
     function getAge(uint256 _age) public view returns {
-        retu
+        retur
     }
 }
