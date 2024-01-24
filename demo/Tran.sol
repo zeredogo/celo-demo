@@ -6,7 +6,7 @@ contract Tran {
     string public Logo = 'Zonex, Kypto-zone, dogoempire = Paul Zere Sunday Dogo.';
     uint256 public Age = 287;
     uint256 public Price = 580;
-    string public Start = 'Growth and';
+    string public Start = 'Growth and ';
     string public Gracefullness = "The flood when and till flesh";
 
     function getLogo(string memory _logo) public view returns {
