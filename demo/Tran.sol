@@ -21,7 +21,7 @@ contract Tran {
         return _price;
     }
     
-    function getStart(string _start) pub
+    function getStart(string _start) publ
 
     function getAge(uint256 _age) public view returns {
         return _age; 
