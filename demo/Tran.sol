@@ -21,7 +21,7 @@ contract Tran {
         return _price;
     }
     
-    function getStarte(string _start) public view returns {
+    function getStarted(string _start) public view returns {
         return _start;
     }
 
