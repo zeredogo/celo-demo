@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 contract Tran {
     string public Logo = 'Zonex, Kypto-zone, dogoempire = Paul Zere Sunday Dogo.';
-    uint256 public Age = 287;
+    uint256 public Age = 28;
     uint256 public Price = 57800;
     string public Started = 'Growth, Confidences and well spoken';
     string public Gracefullness = "The flood when and till flesh";
